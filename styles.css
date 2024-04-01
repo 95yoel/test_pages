@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+small{
+    margin-top: 1rem;
+    font-size: 0.8 rem;
+    font-style: italic;
+}
+
+button{
+    padding: 5px;
+    font-size: 20px;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+button:hover{
+    transition: 1s;
+    background-color: grey;
+    color: white;
+}
